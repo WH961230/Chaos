@@ -6072,6 +6072,7 @@ GameObject:
   - component: {fileID: -2799988544162159666}
   - component: {fileID: -2845634900080611558}
   - component: {fileID: 1025462616052033103}
+  - component: {fileID: 330857980950373324}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -6125,6 +6126,7 @@ Transform:
   - {fileID: 4786553673168272}
   - {fileID: 4183003228951668}
   - {fileID: 4011542150690806}
+  - {fileID: 5451308399888612223}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6178,11 +6180,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff3ba0becae47b8b9381191598957c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncDirection: 0
+  syncDirection: 1
   syncMode: 0
   syncInterval: 0
   target: {fileID: 4577050218423198}
-  clientAuthority: 0
+  clientAuthority: 1
   syncPosition: 1
   syncRotation: 1
   syncScale: 0
@@ -6255,6 +6257,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14b66a6f67f45eb4c9f07bf290dab26c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animParamSpeed: 10
+  MoveSpeed: 1.5
+  RotateSpeed: 5
+--- !u!114 &330857980950373324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936484047125608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fff0960ef4ea6e04eac66b4a7fd2189d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RigLayers:
+  - m_Rig: {fileID: 2829628518775008997}
+    m_Active: 1
+  m_Effectors: []
 --- !u!1 &1966984404059148
 GameObject:
   m_ObjectHideFlags: 0
@@ -6588,3 +6609,104 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.0007863045, y: 0.84273136, z: -0.023537442}
     m_Extent: {x: 1.0261877, y: 0.9452522, z: 0.24399199}
   m_DirtyAABB: 0
+--- !u!1 &2178863298820445986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5451308399888612223}
+  - component: {fileID: 2829628518775008997}
+  - component: {fileID: 677074960568263309}
+  m_Layer: 0
+  m_Name: HeadRigLayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5451308399888612223
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2178863298820445986}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4577050218423198}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2829628518775008997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2178863298820445986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70b342d8ce5c2fd48b8fa3147d48d1d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Weight: 1
+  m_Effectors: []
+--- !u!114 &677074960568263309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2178863298820445986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3c430f382484144e925c097c2d33cfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Weight: 1
+  m_Data:
+    m_ConstrainedObject: {fileID: 4478531554943124}
+    m_SourceObjects:
+      m_Length: 0
+      m_Item0:
+        transform: {fileID: 0}
+        weight: 0
+      m_Item1:
+        transform: {fileID: 0}
+        weight: 0
+      m_Item2:
+        transform: {fileID: 0}
+        weight: 0
+      m_Item3:
+        transform: {fileID: 0}
+        weight: 0
+      m_Item4:
+        transform: {fileID: 0}
+        weight: 0
+      m_Item5:
+        transform: {fileID: 0}
+        weight: 0
+      m_Item6:
+        transform: {fileID: 0}
+        weight: 0
+      m_Item7:
+        transform: {fileID: 0}
+        weight: 0
+    m_Offset: {x: 0, y: 0, z: 0}
+    m_MinLimit: -45
+    m_MaxLimit: 45
+    m_AimAxis: 4
+    m_UpAxis: 2
+    m_WorldUpType: 0
+    m_WorldUpObject: {fileID: 0}
+    m_WorldUpAxis: 2
+    m_MaintainOffset: 1
+    m_ConstrainedAxes:
+      x: 1
+      y: 1
+      z: 1

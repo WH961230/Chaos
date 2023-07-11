@@ -1,8 +1,12 @@
-using System.Collections.Generic;
 using Mirror;
 using UnityEngine;
 
 public class NetworkManager : Mirror.NetworkManager {
+    public static NetworkManager instance;
+    public override void Awake() {
+        instance = this;
+    }
+
     public override void OnServerConnect(NetworkConnectionToClient conn) {
         base.OnServerConnect(conn);
         Debug.Log("OnServerConnect");

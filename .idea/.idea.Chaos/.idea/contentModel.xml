@@ -8,6 +8,9 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Asset" t="Include">
+          <e p="Animations" t="Include">
+            <e p="Clips" t="Include" />
+          </e>
           <e p="Prefabs" t="Include" />
           <e p="Scenes" t="Include" />
           <e p="Scripts" t="Include">
@@ -16,6 +19,7 @@
               <e p="NetworkManager.cs" t="Include" />
             </e>
             <e p="PlayerMoveController.cs" t="Include" />
+            <e p="VirtualCameraTargetController.cs" t="Include" />
           </e>
           <e p="Settings" t="Include" />
           <e p="TerrainData" t="Include" />
@@ -1229,6 +1233,66 @@
             </e>
           </e>
           <e p="VERSION.txt" t="Include" />
+        </e>
+        <e p="PolygonMilitary" t="Include">
+          <e p="Materials" t="Include">
+            <e p="Misc" t="Include" />
+            <e p="Vehicles" t="Include" />
+            <e p="WeaponTextures" t="Include" />
+          </e>
+          <e p="Models" t="Include">
+            <e p="CollisionConvex" t="Include" />
+            <e p="CollisionCustom" t="Include">
+              <e p="New Folder" t="Include" />
+            </e>
+            <e p="Materials" t="Include" />
+          </e>
+          <e p="Prefabs" t="Include">
+            <e p="Buildings" t="Include" />
+            <e p="Characters" t="Include">
+              <e p="Alt_Soldiers" t="Include" />
+              <e p="Attachments" t="Include">
+                <e p="Patches" t="Include" />
+              </e>
+            </e>
+            <e p="Environment" t="Include" />
+            <e p="FX" t="Include">
+              <e p="Decals" t="Include" />
+              <e p="Materials" t="Include" />
+              <e p="Models" t="Include" />
+            </e>
+            <e p="Generic" t="Include" />
+            <e p="Items" t="Include" />
+            <e p="Props" t="Include">
+              <e p="Debris" t="Include" />
+              <e p="Military" t="Include" />
+              <e p="PipeLine" t="Include" />
+              <e p="Rugs" t="Include" />
+              <e p="Signs" t="Include" />
+            </e>
+            <e p="Vehicles" t="Include">
+              <e p="Destroyed" t="Include" />
+              <e p="Veh_Attachments" t="Include" />
+            </e>
+            <e p="Weapons" t="Include">
+              <e p="Modular" t="Include">
+                <e p="Attachments" t="Include" />
+                <e p="Crosshairs" t="Include" />
+                <e p="Scopes" t="Include" />
+                <e p="Weapon_A" t="Include" />
+                <e p="Weapon_B" t="Include" />
+              </e>
+              <e p="Modular_Presets" t="Include" />
+            </e>
+          </e>
+          <e p="Scenes" t="Include">
+            <e p="Demo_01" t="Include" />
+          </e>
+          <e p="Textures" t="Include">
+            <e p="Decals" t="Include" />
+            <e p="Vehicles" t="Include" />
+            <e p="Weapons" t="Include" />
+          </e>
         </e>
         <e p="ScriptTemplates" t="Include">
           <e p="50-Mirror__Network Manager-NewNetworkManager.cs.txt" t="Include" />
