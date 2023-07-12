@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d85ae5c9-86e8-4c76-b301-3c73c31d8988" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Chaos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Chaos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/PlayerController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/PlayerController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Chaos/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Chaos/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Asset/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Scripts/PlayerMoveController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Scripts/PlayerMoveController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Scripts/VirtualCameraTargetController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Scripts/VirtualCameraTargetController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +90,7 @@
       <updated>1688892401237</updated>
       <workItem from="1688892412027" duration="11407000" />
       <workItem from="1689078285846" duration="10627000" />
-      <workItem from="1689169955609" duration="9079000" />
+      <workItem from="1689169955609" duration="9464000" />
     </task>
     <servers />
   </component>

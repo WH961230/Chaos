@@ -6257,7 +6257,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14b66a6f67f45eb4c9f07bf290dab26c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animParamSpeed: 10
+  animParamSpeed: 2
+  animParamCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   MoveSpeed: 1.5
   RotateSpeed: 5
   walkWeight: 1.57

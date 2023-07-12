@@ -16,6 +16,7 @@ public class PlayerMoveController : MonoBehaviour {
     #endregion
 
     public float animParamSpeed;
+    public AnimationCurve animParamCurve;
     public float MoveSpeed;
     public float RotateSpeed;
 
