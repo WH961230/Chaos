@@ -1,4 +1,3 @@
-using Cinemachine;
 using Mirror;
 using UnityEngine;
 using UnityEngine.Animations.Rigging;
@@ -21,6 +20,11 @@ public class PlayerMoveController : MonoBehaviour {
     public float RotateSpeed;
 
     private RigLayer headRigLayer;
+
+    public float walkWeight;
+    public float runWeight;
+    public float backwardWeight;
+    public float sideWeight;
 
     void Start() {
         net = GetComponent<NetworkIdentity>();
@@ -51,25 +55,47 @@ public class PlayerMoveController : MonoBehaviour {
             return;
         }
 
+        //get input
         float h = Input.GetAxis(HORIZONTAL);
         float v = Input.GetAxis(VERTICAL);
         bool isShift = Input.GetKey(KeyCode.LeftShift);
-        Debug.DrawLine(transform.position, new Vector3(VirtualCameraTargetController.instance.FarTarget.position.x, 0, VirtualCameraTargetController.instance.FarTarget.position.z).normalized, Color.red);
 
-        if (h == 0 && v <= 0) {
-            animator.SetFloat(HORIZONTAL, 0);
-            animator.SetFloat(VERTICAL, 0);
-            return;
+        if (h == 0) {
+            SetAnimation(HORIZONTAL, 0);
         }
 
-        SetAnimation(HORIZONTAL, isShift ? 2 * h : h);
-        SetAnimation(VERTICAL, isShift ? 2 * v : v);
+        if (h > 0) {
+            SetAnimation(HORIZONTAL, sideWeight);
+        }
+        
+        if (h < 0) {
+            SetAnimation(HORIZONTAL, -sideWeight);
+        }
 
-        Transform farTarget = VirtualCameraTargetController.instance.FarTarget;
-        Vector3 newForward = (new Vector3(farTarget.position.x, 0, farTarget.position.z) - transform.position)
-            .normalized;
-        transform.forward = Vector3.Lerp(transform.forward, newForward, Time.fixedDeltaTime * RotateSpeed);
-        controller.Move(transform.forward * (isShift ? 2 * MoveSpeed : MoveSpeed) * Time.fixedDeltaTime);
+        if (v == 0) {
+            SetAnimation(VERTICAL, 0);
+        }
+
+        if (v > 0) {
+            if (isShift) {
+                SetAnimation(VERTICAL, runWeight);
+            } else {
+                SetAnimation(VERTICAL, walkWeight);
+            }
+        }
+        
+        if (v < 0) {
+            SetAnimation(VERTICAL, backwardWeight);
+        }
+
+        if (h != 0 || v != 0) {
+            Transform farTarget = VirtualCameraTargetController.instance.FarTarget;
+            Vector3 farPosition = new Vector3(farTarget.position.x, 0, farTarget.position.z);
+            Vector3 selfPosition = new Vector3(transform.position.x, 0, transform.position.z);
+            Vector3 selfToFarDir = (farPosition - selfPosition).normalized;
+            Quaternion lookRotation = Quaternion.LookRotation(selfToFarDir);
+            transform.rotation = Quaternion.Lerp(transform.rotation, lookRotation, Time.fixedDeltaTime * RotateSpeed);
+        }
     }
 
     private void SetAnimation(string animParam, float value) {

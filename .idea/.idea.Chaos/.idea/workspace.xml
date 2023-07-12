@@ -20,44 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d85ae5c9-86e8-4c76-b301-3c73c31d8988" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Chaos/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Chaos/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Chaos/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Chaos/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Chaos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Chaos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/Exo Gray.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/Exo Gray.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/Exo Gray.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/Exo Gray.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/idle.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/idle.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/idle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/idle.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/jump.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/jump.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/jump.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/jump.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/left strafe walking.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/left strafe walking.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/left strafe walking.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/left strafe walking.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/left strafe.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/left strafe.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/left strafe.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/left strafe.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/left turn 90.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/left turn 90.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/left turn 90.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/left turn 90.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/left turn.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/left turn.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/left turn.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/left turn.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/right strafe walking.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/right strafe walking.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/right strafe walking.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/right strafe walking.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/right strafe.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/right strafe.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/right strafe.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/right strafe.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/right turn 90.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/right turn 90.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/right turn 90.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/right turn 90.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/right turn.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/right turn.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/right turn.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/right turn.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/running.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/running.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/running.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/running.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/walking.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/walking.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/walking.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/Clips/walking.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Asset/Animations/PlayerController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Animations/PlayerController.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Asset/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Asset/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset/Scripts/Network/NetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Scripts/Network/NetworkManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Asset/Scripts/PlayerMoveController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Scripts/PlayerMoveController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirror/Core/NetworkClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirror/Core/NetworkClient.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset/Scripts/VirtualCameraTargetController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset/Scripts/VirtualCameraTargetController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +39,7 @@
     <setting file="file://$PROJECT_DIR$/../ChaosClone/Assets/Asset/Scripts/Network/NetworkManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.animation.rigging@1.2.1/Runtime/AnimationRig/RigLayer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Asset/Scripts/Network/NetworkManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5A41D6B7-1898-42EC-A409-FD0B1C3E3DCF/0/System.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.animation.rigging@1.2.1/Runtime/AnimationRig/Rig.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -124,7 +93,8 @@
       <option name="presentableId" value="Default" />
       <updated>1688892401237</updated>
       <workItem from="1688892412027" duration="11407000" />
-      <workItem from="1689078285846" duration="10337000" />
+      <workItem from="1689078285846" duration="10627000" />
+      <workItem from="1689169955609" duration="9079000" />
     </task>
     <servers />
   </component>
@@ -143,6 +113,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -152,6 +123,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1028" y="424" key="RiderGenerateDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1688910827152" />
+    <state x="929" y="432" width="702" height="536" key="find.popup" timestamp="1689089336293">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="929" y="432" width="702" height="536" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1689089336293" />
     <state x="936" y="330" key="run.anything.popup" timestamp="1688893466966">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

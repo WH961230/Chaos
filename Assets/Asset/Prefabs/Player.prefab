@@ -6143,7 +6143,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 900b987e6486c274a8fa9034db2c377c, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -6236,7 +6236,7 @@ CharacterController:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Height: 1.85
   m_Radius: 0.35
@@ -6260,6 +6260,10 @@ MonoBehaviour:
   animParamSpeed: 10
   MoveSpeed: 1.5
   RotateSpeed: 5
+  walkWeight: 1.57
+  runWeight: 3.95
+  backwardWeight: -1.07
+  sideWeight: 1.55
 --- !u!114 &330857980950373324
 MonoBehaviour:
   m_ObjectHideFlags: 0

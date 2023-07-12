@@ -5,7 +5,7 @@ using UnityEngine.Events;
 public class VirtualCameraTargetController : MonoBehaviour {
     public Transform FarTarget;
     public Vector3 offPos;
-    
+    public float speed;
     private GameObject localPlayerGameObj;
     public GameObject LocalPlayerGameObj {
         get {
@@ -36,13 +36,13 @@ public class VirtualCameraTargetController : MonoBehaviour {
         yRotate += Input.GetAxis("Mouse X");
     }
 
-    void FixedUpdate() {
+    void LateUpdate() {
         if (LocalPlayerGameObj != null) {
             if (!isResetDirection) {
                 transform.rotation = LocalPlayerGameObj.transform.rotation;
                 isResetDirection = true;
             }
-            transform.position = LocalPlayerGameObj.transform.position + offPos;
+            transform.position = Vector3.Lerp(transform.position, LocalPlayerGameObj.transform.position + offPos, Time.fixedTime * speed);
             transform.rotation = Quaternion.Euler(xRotate, yRotate, 0);
         }
     }

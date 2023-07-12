@@ -557,6 +557,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FarTarget: {fileID: 652689659}
   offPos: {x: 0, y: 1.47, z: 0}
+  speed: 5
   xRotateMinLimit: -60
   xRotateMaxLimit: 60
 --- !u!1 &652689658
